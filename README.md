@@ -1,20 +1,34 @@
-# Hydejack Starter Kit
+# ParticleGround-Portfolio
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+A particle-theme template as a landing page for your portfolio.
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+> [Demo](https://landing-page--itsron717.repl.co/)
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+<img src="particle_demo/particle_demo.png"/>
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
+# Using the Template
 
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+  - Fork and Clone the repository
+
+    ```
+    $ git clone https://github.com/itsron717/ParticleGround-Portfolio.git
+    ```
+ 
+  - Go inside the main repository
+  
+    ```
+    $ cd ParticleGround-Portfolio
+    ```
+    
+  - Modify `index.html` to change the names and links to point at your pages.
+  
+  - Upload your resume in the place of `deedy.pdf` (Or One can use the famous deedy template and build on that)
+   
+# Particle Feature
+
+The particle feature was obtained with the help of this [particleground](https://github.com/jnicol/particleground). The changes in the particles such as speed, drift, colour, direction, density, etc. can be modified in `demo.js`. Refer to the above link for more details.
+
+
+# References and Inspiration
+
+This template is a minimal form of the [Particle Jekyll Template](https://github.com/nrandecker/particle).
